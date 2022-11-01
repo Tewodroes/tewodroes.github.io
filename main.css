@@ -22,7 +22,7 @@ body{
     
 }
 ul{
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 ul a{
@@ -33,32 +33,32 @@ ul a:hover{
     color: rgb(152, 152, 84);
 }
 
-div{
+footer{
     background-color: #282a35;
     color: #fffafa; 
     margin-top: 50px;
     padding-top: 50px;
 }
 
-div a{
+footer a{
     margin-left: 90%;
 }
-div a{
+footer a{
 
    color: #fffafa;
    margin: 3% auto;   
    text-decoration: none;
 }
 
-div a:hover{
+footer a:hover{
     color: rgb(152, 152, 84);
 }
 
- div{
-    padding-left: 3%;
+footer div{
+    margin-left: 3%;
 }
 
-div img{
+footer img{
     display: inline;
     margin-left: 90%;
     
