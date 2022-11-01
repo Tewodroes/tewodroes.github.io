@@ -33,32 +33,32 @@ ul a:hover{
     color: rgb(152, 152, 84);
 }
 
-footer{
+div{
     background-color: #282a35;
     color: #fffafa; 
     margin-top: 50px;
     padding-top: 50px;
 }
 
-footer a{
+div a{
     margin-left: 90%;
 }
-footer a{
+div a{
 
    color: #fffafa;
    margin: 3% auto;   
    text-decoration: none;
 }
 
-footer a:hover{
+div a:hover{
     color: rgb(152, 152, 84);
 }
 
-footer div{
-    margin-left: 3%;
+ div{
+    padding-left: 3%;
 }
 
-footer img{
+div img{
     display: inline;
     margin-left: 90%;
     
