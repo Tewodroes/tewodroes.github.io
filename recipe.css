@@ -13,8 +13,7 @@ h1{
     
     color: #A5A400;
     text-align: left;
-    font-size: 18pt;
-    
+    font-size: 18pt;    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: underline;
     letter-spacing: 0.25em;
@@ -26,8 +25,9 @@ h1{
 }
 
 header h1{    
-    text-align: center;
-    font-style: 22pt bold;
+    text-align: center;    
+    font-size: 22pt;
+    font-weight: bold;
 }
 
 abbr{
