@@ -15,10 +15,14 @@ header h1{
 header img{
     border-radius: 50%;
     margin-left: 41%;
+    width: 200px;
+    height: 200px;
     
 }
 body{
     background-color: #fffafa;
+    margin: 0;
+    padding: 0;
     
 }
 ul{
