@@ -10,7 +10,8 @@ body{
 }
 
 h1{
-    
+    background-color: #F0F0F0;
+    width:fit-content;    
     color: #A5A400;
     text-align: left;
     font-size: 18pt;    
@@ -20,12 +21,11 @@ h1{
     
 }
 
-.h1Texts{
-    background-color: #F0F0F0;
-}
+
 
 header h1{    
     text-align: center;    
+    margin: auto;
     font-size: 22pt;
     font-weight: bold;
 }
@@ -50,6 +50,7 @@ a{
 blockquote{
     font-style: italic;
     background-color:#FFFFA8;  
+    margin-left: 5%;
 }
 
 pre{

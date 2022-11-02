@@ -1,0 +1,29 @@
+html{
+    color:#FFFFFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+   background-color:  #595647;
+}
+
+h1, h2{
+    color: #A2C3F4;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#moods > img{
+    width: 200px;
+    height: 200px;
+}
+
+dt{
+    color: yellow;
+}
