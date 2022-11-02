@@ -24,6 +24,10 @@ a:hover{
     height: 200px;
 }
 
+#lists{
+    margin-left: 7%;
+}
+
 dt{
     color: yellow;
 }
