@@ -14,14 +14,14 @@ class CheckingAccount extends Account {
 
   withdraw(amount) {
     if (amount <= 0) {
-      throw new RangeError("Withdraw amount has to be greater than zero");
+      throw new RangeError("Have to be greater than zero");
     }
     if (amount > this._balance && amount - this._balance > overdraft) {
-      throw Error("Insufficient funds");
+      throw Error("Balance Low");
     }
     this._balance -= amount;
   }
   toString() {
-    return "Checking Account " + this._number + ": balance " + this._balance;
+    return "Checking Account " + this._number + ": balance " + this._balance + ": overdraft "+this._overdraft;
   }
 }

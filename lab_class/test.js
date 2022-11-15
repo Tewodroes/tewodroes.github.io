@@ -1,4 +1,6 @@
 let acct = new Account(10000);
+let sacct = new SavingsAccount(2000, 20);
+
 
 describe("Test Results", () => {
     it("Test getNumber()", () => {
@@ -27,5 +29,14 @@ describe("Test Results", () => {
     it("Test endOfMonth()"  , () => {
         assert.equal(acct.endOfMonth(), ""); 
     });
+
+    it("Test getInterest()"  , () => {
+        sacct.deposit(100);
+        sacct.addInterest();
+        assert.equal(sacct.getBalance(), 120); 
+    });
+
+
+
 
 });

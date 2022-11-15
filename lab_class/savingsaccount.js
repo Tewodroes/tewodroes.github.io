@@ -21,7 +21,3 @@ class SavingsAccount extends Account{
     }
 }
 
-let sacct = new SavingsAccount(2000, 20);
-sacct.deposit(100);
-sacct.addInterest();
-console.log(sacct.toString());
